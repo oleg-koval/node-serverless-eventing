@@ -1,0 +1,59 @@
+{
+  "name": "nodejs-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "8.x.x"
+  },
+  "scripts": {
+    "deploy": "sls deploy --stage",
+    "lint": "eslint src",
+    "lint:fix": "npm run lint -- --fix",
+    "precommit": "lint-staged",
+    "start": "NODE_ENV=development serverless offline start",
+    "test": "NODE_ENV=development LOG_LEVEL=error jest --coverage",
+    "test:watch": "NODE_ENV=development LOG_LEVEL=error jest --watch"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.7.2",
+    "eslint-plugin-prettier": "^2.1.2",
+    "husky": "^0.14.3",
+    "jest": "22.4.3",
+    "lint-staged": "^7.1.2",
+    "pre-push": "^0.1.1",
+    "prettier": "^1.7.2",
+    "prettier-eslint": "^8.2.0",
+    "serverless": "^1.27.3",
+    "serverless-dynamodb-local": "^0.2.30",
+    "serverless-offline": "^3.23.1",
+    "serverless-pseudo-parameters": "^1.4.2"
+  },
+  "dependencies": {
+    "dynamodb": "^1.1.2",
+    "joi": "^13.3.0"
+  },
+  "pre-push": [
+    "test"
+  ],
+  "lint-staged": {
+    "src/**/*.js": [
+      "./node_modules/.bin/eslint --fix --quiet",
+      "git add"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src/"
+    ],
+    "verbose": true,
+    "testEnvironment": "node"
+  }
+}

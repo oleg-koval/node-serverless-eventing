@@ -1,0 +1,53 @@
+service: nodejs-assignment
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  region: eu-west-1
+  environment:
+    APP_NAME: ${self:service}
+    AWS_ACCESS_KEY_ID: id_key
+    AWS_SECRET_ACCESS_KEY: access_key
+
+package:
+  exclude:
+    - .env
+    - coverage/**
+
+plugins:
+  - serverless-pseudo-parameters
+  - serverless-dynamodb-local
+  - serverless-offline
+
+functions:
+  function1:
+    name: function1
+    handler: src/app1/functions.function1
+    events:
+      - http:
+          path: /create/{amount}
+          method: get
+
+  function2:
+    name: function2
+    handler: src/app1/functions.function2
+    events:
+      - http:
+          path: /delete/{id}
+          method: get
+
+  function3:
+    name: function3
+    handler: src/app1/functions.function3
+    events:
+      - http:
+          path: /all
+          method: get
+
+  function4:
+    name: function4
+    handler: src/app1/functions.function4
+    events:
+      - http:
+          path: /disburse/{id}
+          method: get
