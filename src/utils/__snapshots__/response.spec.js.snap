@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`error should return a validation response 1`] = `
+Object {
+  "body": Object {
+    "validationErrors": Array [
+      Object {
+        "message": "test",
+      },
+    ],
+  },
+  "headers": Object {},
+  "statusCode": 400,
+}
+`;
+
+exports[`error should return an error response 1`] = `
+Object {
+  "body": Object {
+    "a": 1,
+  },
+  "headers": Object {},
+  "statusCode": 400,
+}
+`;
+
+exports[`respondWith returns error if wrong status code 1`] = `"status code out of range"`;
+
+exports[`respondWith w/o data 1`] = `
+Object {
+  "headers": Object {},
+  "statusCode": 200,
+}
+`;
+
+exports[`respondWith with the parser 1`] = `
+Object {
+  "body": Object {
+    "a": 1,
+  },
+  "headers": Object {},
+  "statusCode": 200,
+}
+`;
+
+exports[`send should return a response 1`] = `
+Object {
+  "body": Object {
+    "a": 1,
+  },
+  "headers": Object {},
+  "statusCode": 200,
+}
+`;
+
+exports[`serverError should return a response 1`] = `
+Object {
+  "body": Object {
+    "a": 1,
+  },
+  "headers": Object {},
+  "statusCode": 500,
+}
+`;

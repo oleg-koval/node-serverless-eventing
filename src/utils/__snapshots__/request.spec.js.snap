@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`request data parser with the parser no data 1`] = `"data missing"`;
+
+exports[`request data parser with the parser should work 1`] = `
+Object {
+  "a": 1,
+}
+`;
+
+exports[`request data parser with the parser valid JSON string 1`] = `
+Object {
+  "a": 1,
+}
+`;
+
+exports[`request data parser without the parser should throw an error 1`] = `"parser missing"`;
