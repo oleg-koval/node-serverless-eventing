@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`create.handler Should create a loan, correct amount 1`] = `
+Object {
+  "body": Object {
+    "amount": 1,
+    "createdAt": "2019-06-07T21:11:07.751Z",
+    "id": "b0667a9d-fa09-473e-87a5-f5753983b840",
+    "status": "offered",
+  },
+  "headers": Object {},
+  "statusCode": 200,
+}
+`;
+
+exports[`create.handler Should not create a loan, incorrect amount 1`] = `
+Object {
+  "body": "dynamo error",
+  "headers": Object {},
+  "statusCode": 400,
+}
+`;
