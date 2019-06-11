@@ -1,21 +1,30 @@
 {
-  "name": "nodejs-assignment",
+  "name": "node-serverless-eventing",
   "version": "1.0.0",
-  "private": true,
-  "description": "",
+  "private": false,
+  "description": "Two apps are communicating with each other through events & commands.",
+  "keywords": [
+    "aws",
+    "kinesis",
+    "node serverless",
+    "serverless",
+    "sls",
+    "sqs"
+  ],
   "license": "UNLICENSED",
   "scripts": {
+    "precommit": "lint-staged",
+    "commit": "npx git-cz",
     "debug": "SLS_DEBUG=* yarn start",
     "deploy": "sls deploy --stage",
-    "lint": "eslint src",
+    "lint": "eslint lib",
     "lint:fix": "npm run lint -- --fix",
-    "precommit": "lint-staged",
     "start": "NODE_ENV=development serverless offline start",
     "test": "NODE_ENV=development LOG_LEVEL=error jest --coverage",
     "test:watch": "NODE_ENV=development LOG_LEVEL=error jest --watch"
   },
   "lint-staged": {
-    "src/**/*.js": [
+    "lib/**/*.js": [
       "./node_modules/.bin/eslint --fix --quiet",
       "git add"
     ]
@@ -32,6 +41,8 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
+    "commitizen": "^3.1.1",
+    "cz-conventional-changelog": "^2.1.0",
     "eslint": "^4.7.2",
     "eslint-plugin-prettier": "^2.1.2",
     "husky": "^2.4.0",
