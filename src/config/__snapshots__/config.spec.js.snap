@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gets configuration based on environment should get configuration for development env 1`] = `
+Object {
+  "constants": Object {
+    "disbursed": "disbursed",
+    "offered": "offered",
+  },
+  "dynamo": Object {
+    "endpoint": "http://localhost:8000",
+    "region": "localhost",
+  },
+}
+`;
+
+exports[`Gets configuration based on environment should throw an error if env missing 1`] = `"missing environment name"`;
