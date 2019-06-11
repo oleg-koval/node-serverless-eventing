@@ -17,14 +17,14 @@
     "commit": "npx git-cz",
     "debug": "SLS_DEBUG=* yarn start",
     "deploy": "sls deploy --stage",
-    "lint": "eslint src",
+    "lint": "eslint lib",
     "lint:fix": "npm run lint -- --fix",
     "start": "NODE_ENV=development serverless offline start",
     "test": "NODE_ENV=development LOG_LEVEL=error jest --coverage",
     "test:watch": "NODE_ENV=development LOG_LEVEL=error jest --watch"
   },
   "lint-staged": {
-    "src/**/*.js": [
+    "lib/**/*.js": [
       "./node_modules/.bin/eslint --fix --quiet",
       "git add"
     ]

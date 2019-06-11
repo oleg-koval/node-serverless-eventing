@@ -1,6 +1,6 @@
 module.exports = {
     testEnvironment: 'node',
-    roots: ['<rootDir>/src/'],
+    roots: ['<rootDir>/lib/'],
     verbose: true,
     globals: {
         NODE_ENV: 'development',

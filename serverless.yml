@@ -21,24 +21,24 @@ plugins:
 
 functions:
   create:
-    handler: src/handlers/offer/create.handler
+    handler: lib/handlers/offer/create.handler
     events:
       - http:
           path: /create/{amount}
           method: get
   # name: create
-  #   handler: src/handlers/offer/create.handler
+  #   handler: lib/handlers/offer/create.handler
   #   events:
   #     - http:
   #         path: /create/{amount}
   #         method: get
-  # - '${file(src/handlers/offer/serverless.yml)}'
-  # - '${file(src/handlers/disburse/serverless.yml)}'
+  # - '${file(lib/handlers/offer/serverless.yml)}'
+  # - '${file(lib/handlers/disburse/serverless.yml)}'
 
 # functions:
 #   createOffer:
 #     name: create
-#     handler: src/app1/handlers.create
+#     handler: lib/app1/handlers.create
 #     events:
 #       - http:
 #           path: /create/{amount}
@@ -46,7 +46,7 @@ functions:
 
 #   function2:
 #     name: function2
-#     handler: src/app1/functions.function2
+#     handler: lib/app1/functions.function2
 #     events:
 #       - http:
 #           path: /delete/{id}
@@ -54,7 +54,7 @@ functions:
 
 #   function3:
 #     name: function3
-#     handler: src/app1/functions.function3
+#     handler: lib/app1/functions.function3
 #     events:
 #       - http:
 #           path: /all
@@ -62,7 +62,7 @@ functions:
 
 #   function4:
 #     name: function4
-#     handler: src/app1/functions.function4
+#     handler: lib/app1/functions.function4
 #     events:
 #       - http:
 #           path: /disburse/{id}
