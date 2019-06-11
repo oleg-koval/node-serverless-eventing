@@ -2,37 +2,37 @@ version: 2
 
 .steps: &steps
   steps:
-  - checkout
-  - run:
-      name: install
-      command: yarn install
-  - run:
-      name: sls_install
-      command: serverless dynamodb install
-  - run:
-      name: lint
-      command: yarn lint
-  - run:
-      name: test
-      command: yarn test
+    - checkout
+    - run:
+        name: install
+        command: yarn install
+    - run:
+        name: sls_install
+        command: npx serverless dynamodb install
+    - run:
+        name: lint
+        command: yarn lint
+    - run:
+        name: test
+        command: yarn test
 
 jobs:
   test_node_8_10_0:
     docker:
-    - image: circleci/node:8.10.0
+      - image: circleci/node:8.10.0
     <<: *steps
   release:
     docker:
-    - image: circleci/node:8.10.0
+      - image: circleci/node:8.10.0
     steps:
-    - checkout
-    - run: yarn install
+      - checkout
+      - run: yarn install
 
 workflows:
   version: 2
   test_and_release:
     jobs:
-    - test_node_8_10_0
-    - release:
-        requires:
-        - test_node_8_10_0
+      - test_node_8_10_0
+      - release:
+          requires:
+            - test_node_8_10_0
