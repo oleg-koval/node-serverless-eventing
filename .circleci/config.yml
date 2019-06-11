@@ -8,7 +8,7 @@ version: 2
       command: yarn install
   - run:
       name: sls_install
-      command: serverless dynamodb install
+      command: npx serverless dynamodb install
   - run:
       name: lint
       command: yarn lint
