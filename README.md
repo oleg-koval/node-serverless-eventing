@@ -1,3 +1,7 @@
+[![CircleCI](https://circleci.com/gh/oleg-koval/node-serverless-eventing/tree/master.svg?style=svg)](https://circleci.com/gh/oleg-koval/node-serverless-eventing/tree/master) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+______
+
+
 # Node.js (Serverless + eventing)
 
 Two apps are communicating with each other through events & commands.
@@ -18,13 +22,16 @@ Two apps are communicating with each other through events & commands.
 -   Check lint issues: `yarn lint`
 
 ### Style
-- [Commit messages style](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)
-- Eslint: `babel-eslint`
-- Prettier
+-    [Commit messages style](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)
+-    Eslint: `babel-eslint`
+-    Prettier
 
 ### Technologies
 
 -   Platform: Node.js
--   Programming language: Javascript (ES6) / TODO: Rewrite to TS
+-   Programming language: Javascript (ES6)
 -   Framework: Serverless.com
 -   Main AWS Services: Lambda, DybamoDB
+
+### TODO:
+-    Rewrite to TypeScript
