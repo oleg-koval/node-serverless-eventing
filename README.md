@@ -15,6 +15,7 @@ Two apps are communicating with each other through events & commands.
 ### Getting started
 
 -   Install dependencies: `yarn install`
+-   Add `.env` file with content similar to provided in [.env.example file](/.env.example)
 -   Install local dynamodb (required workaround): `serverless dynamodb install`
 -   Run tests: `yarn test`
 -   Run for development: `yarn start`
