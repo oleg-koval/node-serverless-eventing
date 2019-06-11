@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`delete.handler Should remove a loan 1`] = `
+Object {
+  "headers": Object {},
+  "statusCode": 200,
+}
+`;
