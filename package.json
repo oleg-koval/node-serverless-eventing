@@ -13,11 +13,12 @@
   ],
   "license": "UNLICENSED",
   "scripts": {
+    "precommit": "lint-staged",
+    "commit": "npx git-cz",
     "debug": "SLS_DEBUG=* yarn start",
     "deploy": "sls deploy --stage",
     "lint": "eslint src",
     "lint:fix": "npm run lint -- --fix",
-    "precommit": "lint-staged",
     "start": "NODE_ENV=development serverless offline start",
     "test": "NODE_ENV=development LOG_LEVEL=error jest --coverage",
     "test:watch": "NODE_ENV=development LOG_LEVEL=error jest --watch"
