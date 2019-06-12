@@ -32,6 +32,12 @@ functions:
       - http:
           path: /delete/{id}
           method: get
+  list:
+    handler: lib/handlers/offer/list.handler
+    events:
+      - http:
+          path: /list
+          method: get
   # name: create
   #   handler: lib/handlers/offer/create.handler
   #   events:

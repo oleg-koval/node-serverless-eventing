@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`list.handler Return empty result 1`] = `
+Object {
+  "body": Array [],
+  "headers": Object {},
+  "statusCode": 200,
+}
+`;
+
+exports[`list.handler Return error 1`] = `
+Object {
+  "body": [Error: problem with dynamo],
+  "headers": Object {},
+  "statusCode": 400,
+}
+`;
+
+exports[`list.handler Should list loans 1`] = `
+Object {
+  "body": Array [
+    Object {
+      "amount": 333,
+      "createdAt": "2019-06-12T00:11:44.898Z",
+      "id": "052258d8-670b-40b7-8658-82a9855b412a",
+      "status": "offered",
+    },
+    Object {
+      "amount": 333,
+      "createdAt": "2019-06-12T00:11:02.473Z",
+      "id": "f3f2beb4-c9f7-4329-8f71-faea34073d14",
+      "status": "offered",
+    },
+  ],
+  "headers": Object {},
+  "statusCode": 200,
+}
+`;
