@@ -9,7 +9,8 @@
     "node serverless",
     "serverless",
     "sls",
-    "sqs"
+    "sqs",
+    "open kvk"
   ],
   "license": "UNLICENSED",
   "scripts": {
@@ -37,7 +38,8 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "dynamodb": "^1.1.2",
-    "joi": "^13.3.0"
+    "joi": "^13.3.0",
+    "request-promised": "^1.0.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",

@@ -8,6 +8,8 @@ provider:
     APP_NAME: ${self:service}
     AWS_ACCESS_KEY_ID: id_key
     AWS_SECRET_ACCESS_KEY: access_key
+    AWS_ENDPOINT: aws_endpoint
+    AWS_REGION: aws_region
 
 package:
   exclude:
