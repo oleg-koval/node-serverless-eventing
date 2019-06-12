@@ -1,26 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Get company info by id api call should get company details by id 1`] = `
-Object {
-  "headers": Object {
-    "accept": "application/json",
-    "host": "api.overheid.io",
-    "ovio-api-key": "secret",
-  },
-  "method": "GET",
-  "uri": Object {
-    "auth": null,
-    "hash": null,
-    "host": "api.overheid.io",
-    "hostname": "api.overheid.io",
-    "href": "https://api.overheid.io/openkvk/42",
-    "path": "/openkvk/42",
-    "pathname": "/openkvk/42",
-    "port": 443,
-    "protocol": "https:",
-    "query": null,
-    "search": null,
-    "slashes": true,
-  },
-}
-`;
+exports[`Checks if company is active should return error if body is not valid 1`] = `[Error: no response from openKvk]`;
+
+exports[`Checks if company is active should return error if missing active information 1`] = `[Error: missing activity information]`;

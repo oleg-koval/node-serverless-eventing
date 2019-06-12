@@ -21,7 +21,7 @@
     "lint": "eslint lib",
     "lint:fix": "npm run lint -- --fix",
     "start": "NODE_ENV=development serverless offline start",
-    "test": "NODE_ENV=development LOG_LEVEL=error jest --coverage",
+    "test": "NODE_ENV=test LOG_LEVEL=error jest --coverage",
     "test:watch": "NODE_ENV=development LOG_LEVEL=error jest --watch"
   },
   "lint-staged": {
