@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getApiParams should collect all params into one object 1`] = `
+Object {
+  "headers": Object {
+    "ovio-api-key": "secret",
+  },
+  "json": true,
+  "uri": "https://api.overheid.io/openkvk/42",
+}
+`;

@@ -2,6 +2,13 @@
 
 exports[`Gets configuration based on environment should get configuration for development env 1`] = `
 Object {
+  "api": Object {
+    "openKvk": Object {
+      "apiKey": undefined,
+      "endpoint": undefined,
+      "headerName": undefined,
+    },
+  },
   "constants": Object {
     "disbursed": "disbursed",
     "offered": "offered",
