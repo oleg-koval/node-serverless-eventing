@@ -4,9 +4,9 @@ exports[`Gets configuration based on environment should get configuration for de
 Object {
   "api": Object {
     "openKvk": Object {
-      "apiKey": undefined,
-      "endpoint": undefined,
-      "headerName": undefined,
+      "apiKey": "secret",
+      "endpoint": "https://api.overheid.io/openkvk",
+      "headerName": "ovio-api-key",
     },
   },
   "constants": Object {

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Gets configuration based on environment should get configuration for development env 1`] = `
+exports[`Gets configuration based on environment should get configuration for test env 1`] = `
 Object {
   "api": Object {
     "openKvk": Object {

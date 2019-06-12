@@ -13,6 +13,22 @@ Object {
 }
 `;
 
+exports[`create.handler Should not create a loan, company is not active 1`] = `
+Object {
+  "body": "company is not suitable for a loan",
+  "headers": Object {},
+  "statusCode": 400,
+}
+`;
+
+exports[`create.handler Should not create a loan, error from openKvk 1`] = `
+Object {
+  "body": [Error: openKvk problem],
+  "headers": Object {},
+  "statusCode": 400,
+}
+`;
+
 exports[`create.handler Should not create a loan, incorrect amount, missing companyId 1`] = `
 Object {
   "body": Object {
