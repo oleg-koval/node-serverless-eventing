@@ -13,9 +13,40 @@ Object {
 }
 `;
 
-exports[`create.handler Should not create a loan, incorrect amount 1`] = `
+exports[`create.handler Should not create a loan, incorrect amount, missing companyId 1`] = `
 Object {
-  "body": "dynamo error",
+  "body": Object {
+    "validationErrors": Array [
+      Object {
+        "message": "\\"amount\\" must be a number",
+      },
+      Object {
+        "message": "\\"companyId\\" is required",
+      },
+    ],
+  },
+  "headers": Object {},
+  "statusCode": 400,
+}
+`;
+
+exports[`create.handler Should not create a loan, incorrect amount, missing companyId 2`] = `
+Object {
+  "body": Object {
+    "validationErrors": Array [
+      Object {
+        "message": "\\"companyId\\" must be a string",
+      },
+    ],
+  },
+  "headers": Object {},
+  "statusCode": 400,
+}
+`;
+
+exports[`create.handler Should pass validation, throws error on dynamodb 1`] = `
+Object {
+  "body": [Error: db error],
   "headers": Object {},
   "statusCode": 400,
 }
