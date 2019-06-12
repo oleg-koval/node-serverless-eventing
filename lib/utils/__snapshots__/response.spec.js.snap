@@ -26,12 +26,7 @@ Object {
 
 exports[`respondWith returns error if wrong status code 1`] = `"status code out of range"`;
 
-exports[`respondWith w/o data 1`] = `
-Object {
-  "headers": Object {},
-  "statusCode": 200,
-}
-`;
+exports[`respondWith w/o data 1`] = `"{\\"statusCode\\":200,\\"headers\\":{}}"`;
 
 exports[`respondWith with the parser 1`] = `
 Object {
