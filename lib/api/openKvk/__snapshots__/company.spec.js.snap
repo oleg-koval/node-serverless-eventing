@@ -5,7 +5,7 @@ Object {
   "headers": Object {
     "accept": "application/json",
     "host": "api.overheid.io",
-    "ovio-api-key": "839b42dc7512d64aa8b5c2896353b34b9e4dff65fb5df71a9ccae30edf7cec00",
+    "ovio-api-key": "secret",
   },
   "method": "GET",
   "uri": Object {
