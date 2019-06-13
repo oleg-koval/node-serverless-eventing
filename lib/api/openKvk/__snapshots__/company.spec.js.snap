@@ -1,5 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Checks if company is active should return error if body is not valid 1`] = `[Error: no response from openKvk]`;
+exports[`Checks if company is active should call openKvk and return company 1`] = `
+Object {
+  "actief": true,
+  "handelsnaam": "test company",
+}
+`;
 
-exports[`Checks if company is active should return error if missing active information 1`] = `[Error: missing activity information]`;
+exports[`Checks if company is active should return error if body is not valid 1`] = `[Error: no response from openKvk]`;
