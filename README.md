@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/oleg-koval/node-serverless-eventing/tree/master.svg?style=svg)](https://circleci.com/gh/oleg-koval/node-serverless-eventing/tree/master) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![CircleCI](https://circleci.com/gh/oleg-koval/node-serverless-eventing/tree/master.svg?style=svg)](https://circleci.com/gh/oleg-koval/node-serverless-eventing/tree/master) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![codecov](https://codecov.io/gh/oleg-koval/node-serverless-eventing/branch/master/graph/badge.svg)](https://codecov.io/gh/oleg-koval/node-serverless-eventing)
 ______
 
 
