@@ -15,6 +15,9 @@ version: 2
     - run:
         name: test
         command: yarn test
+    - run:
+        name: coverage
+        command: yarn coverage
 
 jobs:
   test_node_8_10_0:

@@ -22,7 +22,8 @@
     "lint:fix": "npm run lint -- --fix",
     "start": "NODE_ENV=development serverless offline start",
     "test": "NODE_ENV=test LOG_LEVEL=error jest --coverage",
-    "test:watch": "NODE_ENV=development LOG_LEVEL=error jest --watch"
+    "test:watch": "NODE_ENV=development LOG_LEVEL=error jest --watch",
+    "coverage": "codecov"
   },
   "lint-staged": {
     "lib/**/*.js": [
@@ -44,6 +45,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.0.1",
+    "codecov": "^3.5.0",
     "commitizen": "^3.1.1",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^4.7.2",
