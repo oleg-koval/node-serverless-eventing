@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  rabbitmq:
+    container_name: loan_rabbit_dev
+    hostname: rabbitok
+    environment:
+        - RABBITMQ_DEFAULT_USER = guest
+        - RABBITMQ_DEFAULT_PASS = guest
+    ports:
+        - "5672:5672"
+        - "15672:15672"
+    image: rabbitmq:3.7.15-management
