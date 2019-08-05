@@ -57,7 +57,7 @@
     "prettier": "1.13.6",
     "prettier-eslint": "8.8.2",
     "serverless": "1.27.3",
-    "serverless-dynamodb-local": "0.2.30",
+    "serverless-dynamodb-local": "0.2.38",
     "serverless-offline": "3.25.4",
     "serverless-pseudo-parameters": "1.6.0"
   },
