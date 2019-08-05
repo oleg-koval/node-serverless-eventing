@@ -39,7 +39,7 @@
   "dependencies": {
     "dotenv": "8.0.0",
     "dynamodb": "1.2.0",
-    "joi": "13.4.0",
+    "joi": "13.7.0",
     "lambda-log": "2.2.0",
     "request-promised": "1.0.2"
   },
