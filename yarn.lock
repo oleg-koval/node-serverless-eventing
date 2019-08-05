@@ -502,9 +502,10 @@ babel-core@^6.0.0, babel-core@^6.26.0:
     slash "^1.0.0"
     source-map "^0.5.7"
 
-babel-eslint@^8.0.1:
+babel-eslint@8.2.5:
   version "8.2.5"
   resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-8.2.5.tgz#dc2331c259d36782aa189da510c43dedd5adc7a3"
+  integrity sha512-TcdEGCHHquOPQOlH6Fe6MLwPWWWJLdeKhcGoLfOTShETpoH8XYWhjWJw38KCKaTca7c/EdxLolnbakixKxnXDg==
   dependencies:
     "@babel/code-frame" "7.0.0-beta.44"
     "@babel/traverse" "7.0.0-beta.44"
@@ -1046,7 +1047,7 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
 
-codecov@^3.5.0:
+codecov@3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/codecov/-/codecov-3.5.0.tgz#3d0748932f9cb41e1ad7f21fa346ef1b2b1bed47"
   integrity sha512-/OsWOfIHaQIr7aeZ4pY0UC1PZT6kimoKFOFYFNb6wxo3iw12nRrh+mNGH72rnXxNsq6SGfesVPizm/6Q3XqcFQ==
@@ -1097,7 +1098,7 @@ commander@~2.8.1:
   dependencies:
     graceful-readlink ">= 1.0.0"
 
-commitizen@^3.1.1:
+commitizen@3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/commitizen/-/commitizen-3.1.1.tgz#0135c8c68df52ce348d718f79b23eb03b8713918"
   integrity sha512-n5pnG8sNM5a3dS3Kkh3rYr+hFdPWZlqV6pfz6KGLmWV/gsIiTqAwhTgFKkcF/paKUpfIMp0x4YZlD0xLBNTW9g==
@@ -1296,7 +1297,7 @@ ctype@0.5.3:
   resolved "https://registry.yarnpkg.com/ctype/-/ctype-0.5.3.tgz#82c18c2461f74114ef16c135224ad0b9144ca12f"
   integrity sha1-gsGMJGH3QRTvFsE1IkrQuRRMoS8=
 
-cz-conventional-changelog@2.1.0, cz-conventional-changelog@^2.1.0:
+cz-conventional-changelog@2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/cz-conventional-changelog/-/cz-conventional-changelog-2.1.0.tgz#2f4bc7390e3244e4df293e6ba351e4c740a7c764"
   integrity sha1-L0vHOQ4yROTfKT5ro1Hkx0Cnx2Q=
@@ -1512,7 +1513,7 @@ dot-prop@^4.1.0:
   dependencies:
     is-obj "^1.0.0"
 
-dotenv@^8.0.0:
+dotenv@8.0.0:
   version "8.0.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.0.0.tgz#ed310c165b4e8a97bb745b0a9d99c31bda566440"
   integrity sha512-30xVGqjLjiUOArT4+M5q9sYdvuR4riM6yK9wMcas9Vbp6zZa+ocC9dp6QoftuhTPhFAiLK/0C5Ni2nou/Bk8lg==
@@ -1549,7 +1550,7 @@ dynamodb-localhost@^0.0.5:
     rmdir "^1.2.0"
     tar "^2.0.0"
 
-dynamodb@^1.1.2:
+dynamodb@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/dynamodb/-/dynamodb-1.2.0.tgz#0360f914471f8984f5d6e96ccb9c8fb5b8d4a958"
   integrity sha512-O28acIHevSLRL7GOzX2oKgPD2tQnzjJsy92L27hjUGUXz+ETgLRTVw5lOujIIpLJBncDNJlx1KN1qfBwp2AmMw==
@@ -1648,9 +1649,10 @@ escodegen@^1.9.0:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-plugin-prettier@^2.1.2:
+eslint-plugin-prettier@2.6.1:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-2.6.1.tgz#de902b4a66b7bca24296429a59a1cc04020ccbbd"
+  integrity sha512-wNZ2z0oVCWnf+3BSI7roS+z4gGu2AwcPKUek+SlLZMZg+X0KbZLsB2knul7fd0K3iuIp402HIYzm4f2+OyfXxA==
   dependencies:
     fast-diff "^1.1.1"
     jest-docblock "^21.0.0"
@@ -1666,9 +1668,10 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@^4.0.0, eslint@^4.7.2:
+eslint@4.19.1, eslint@^4.0.0:
   version "4.19.1"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.19.1.tgz#32d1d653e1d90408854bfb296f076ec7e186a300"
+  integrity sha512-bT3/1x1EbZB7phzYu7vCr1v3ONuzDtX8WjuM9c0iYxe+cq+pwcKEoQjl7zd3RpC6YOLgnSy3cTN58M2jcoPDIQ==
   dependencies:
     ajv "^5.3.0"
     babel-code-frame "^6.22.0"
@@ -2618,7 +2621,7 @@ https-proxy-agent@^2.2.1:
     agent-base "^4.1.0"
     debug "^3.1.0"
 
-husky@^2.4.0:
+husky@2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/husky/-/husky-2.4.0.tgz#1bac7c44588f6e91f808b72efc82d24a57194f36"
   integrity sha512-3k1wuZU20gFkphNWMjh2ISCFaqfbaLY7R9FST2Mj9HeRhUK9ydj9qQR8qfXlog3EctVGsyeilcZkIT7uBZDDVA==
@@ -3505,6 +3508,15 @@ joi@10.6.x, joi@10.x.x:
     items "2.x.x"
     topo "2.x.x"
 
+joi@13.4.0:
+  version "13.4.0"
+  resolved "https://registry.yarnpkg.com/joi/-/joi-13.4.0.tgz#afc359ee3d8bc5f9b9ba6cdc31b46d44af14cecc"
+  integrity sha512-JuK4GjEu6j7zr9FuVe2MAseZ6si/8/HaY0qMAejfDFHp7jcH4OKE937mIHM5VT4xDS0q7lpQbszbxKV9rm0yUg==
+  dependencies:
+    hoek "5.x.x"
+    isemail "3.x.x"
+    topo "3.x.x"
+
 joi@9.X.X, joi@9.x.x:
   version "9.2.0"
   resolved "https://registry.yarnpkg.com/joi/-/joi-9.2.0.tgz#3385ac790192130cbe230e802ec02c9215bbfeda"
@@ -3514,14 +3526,6 @@ joi@9.X.X, joi@9.x.x:
     items "2.x.x"
     moment "2.x.x"
     topo "2.x.x"
-
-joi@^13.3.0:
-  version "13.4.0"
-  resolved "https://registry.yarnpkg.com/joi/-/joi-13.4.0.tgz#afc359ee3d8bc5f9b9ba6cdc31b46d44af14cecc"
-  dependencies:
-    hoek "5.x.x"
-    isemail "3.x.x"
-    topo "3.x.x"
 
 js-string-escape@^1.0.1:
   version "1.0.1"
@@ -3730,7 +3734,7 @@ klaw@^1.0.0:
   optionalDependencies:
     graceful-fs "^4.1.9"
 
-lambda-log@^2.2.0:
+lambda-log@2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/lambda-log/-/lambda-log-2.2.0.tgz#39981bbded4fc2ed4f71f8b0c0c4682971a8d9c1"
   integrity sha512-RM2NiHkz7ahL1TLBuDBnPy4G1BtA1rn25/YVvCidC3agjvnCPU6g1awYiHAEEnTt6ah93Ay/7oMULQrCuPeUdA==
@@ -3774,9 +3778,10 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lint-staged@^7.1.2:
+lint-staged@7.2.0:
   version "7.2.0"
   resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-7.2.0.tgz#bdf4bb7f2f37fe689acfaec9999db288a5b26888"
+  integrity sha512-jPoIMbmgtWMUrz/l0rhBVa1j6H71zr0rEoxDWBA333PZcaqBvELdg0Sf4tdGHlwrBM0GXaXMVgTRkLTm2vA7Jg==
   dependencies:
     app-root-path "^2.0.1"
     chalk "^2.3.1"
@@ -4804,9 +4809,10 @@ posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
 
-pre-push@^0.1.1:
+pre-push@0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/pre-push/-/pre-push-0.1.1.tgz#2a2a79827d243a76c91089897ac707f45e716aac"
+  integrity sha1-Kip5gn0kOnbJEImJescH9F5xaqw=
   dependencies:
     shelljs "0.3.x"
 
@@ -4822,9 +4828,10 @@ preserve@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/preserve/-/preserve-0.2.0.tgz#815ed1f6ebc65926f865b310c0713bcb3315ce4b"
 
-prettier-eslint@^8.2.0:
+prettier-eslint@8.8.2:
   version "8.8.2"
   resolved "https://registry.yarnpkg.com/prettier-eslint/-/prettier-eslint-8.8.2.tgz#fcb29a48ab4524e234680797fe70e9d136ccaf0b"
+  integrity sha512-2UzApPuxi2yRoyMlXMazgR6UcH9DKJhNgCviIwY3ixZ9THWSSrUww5vkiZ3C48WvpFl1M1y/oU63deSy1puWEA==
   dependencies:
     babel-runtime "^6.26.0"
     common-tags "^1.4.0"
@@ -4840,9 +4847,10 @@ prettier-eslint@^8.2.0:
     typescript-eslint-parser "^16.0.0"
     vue-eslint-parser "^2.0.2"
 
-prettier@^1.7.0, prettier@^1.7.2:
+prettier@1.13.6, prettier@^1.7.0:
   version "1.13.6"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.13.6.tgz#00ae0b777ad92f81a9e7a1df2f0470b6dab0cb44"
+  integrity sha512-p5eqCNiohWZN++7aJXUVj0JgLqHCPLf9GLIcLBHGNWs4Y9FJOPs6+KNO2WT0udJIQJTbeZFrJkjzjcb8fkAYYQ==
 
 pretty-format@^22.4.0, pretty-format@^22.4.3:
   version "22.4.3"
@@ -5104,7 +5112,7 @@ request-promise-native@^1.0.5:
     stealthy-require "^1.1.0"
     tough-cookie ">=2.3.3"
 
-request-promised@^1.0.2:
+request-promised@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/request-promised/-/request-promised-1.0.2.tgz#087eafa6ccd87e9f2bb5da1e6f7385a065f07b3d"
   integrity sha1-CH6vpszYfp8rtdoeb3OFoGXwez0=
@@ -5379,18 +5387,20 @@ semver@~5.0.1:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.0.3.tgz#77466de589cd5d3c95f138aa78bc569a3cb5d27a"
 
-serverless-dynamodb-local@^0.2.30:
+serverless-dynamodb-local@0.2.30:
   version "0.2.30"
   resolved "https://registry.yarnpkg.com/serverless-dynamodb-local/-/serverless-dynamodb-local-0.2.30.tgz#3b6de306a318600d7844605f7e650974a9e0c11f"
+  integrity sha512-dEeyfrDmXWM6KEqofVPuqVraZTenhlOjAsDjVrr2Kecq/mJs4FxeoDq9X/UriuZLENNzAAVX4BRt1HTX/JdRGg==
   dependencies:
     aws-sdk "^2.7.0"
     bluebird "^3.4.6"
     dynamodb-localhost "^0.0.5"
     lodash "^4.17.0"
 
-serverless-offline@^3.23.1:
+serverless-offline@3.25.4:
   version "3.25.4"
   resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-3.25.4.tgz#a5d4d3ece803ee36f3e7cffec9019731314d351c"
+  integrity sha512-YakN3VFfNxz3mIgh6RqL5q1f5bVAEfWoFwgCnUoNdExoAv5PuHBq6WVENlZj4MsXxLS3fucPJcE4PzSs/L/IrQ==
   dependencies:
     babel-register "^6.18.0"
     boom "^4.2.0"
@@ -5404,13 +5414,15 @@ serverless-offline@^3.23.1:
     uuid "^3.2.1"
     velocityjs "^0.9.3"
 
-serverless-pseudo-parameters@^1.4.2:
+serverless-pseudo-parameters@1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/serverless-pseudo-parameters/-/serverless-pseudo-parameters-1.6.0.tgz#0a2532e56f04f95f6d0c17490de42c4c498c65f6"
+  integrity sha512-U0AGzs8qJNAYyp5pntd9W5zKGu3Vxw9YYFgsKpxz/FCNVbSppqMNOjfb2X2mSi6x531QSNs99Twcbeg/lK6hBg==
 
-serverless@^1.27.3:
+serverless@1.27.3:
   version "1.27.3"
   resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.27.3.tgz#6cde5fa520fd099886460033ff1aadd2800cc7b3"
+  integrity sha1-bN5fpSD9CZiGRgAz/xqt0oAMx7M=
   dependencies:
     "@serverless/fdk" "^0.5.1"
     apollo-client "^1.9.2"
