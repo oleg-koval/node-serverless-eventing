@@ -22,11 +22,11 @@ version: 2
 jobs:
   test_node_8_10_0:
     docker:
-      - image: circleci/node:8.10.0
+      - image: circleci/node:8.16.1
     <<: *steps
   release:
     docker:
-      - image: circleci/node:8.10.0
+      - image: circleci/node:8.16.1
     steps:
       - checkout
       - run: yarn install
