@@ -48,7 +48,7 @@
     "codecov": "3.5.0",
     "commitizen": "3.1.1",
     "cz-conventional-changelog": "2.1.0",
-    "eslint": "4.19.1",
+    "eslint": "6.3.0",
     "eslint-plugin-prettier": "2.6.1",
     "husky": "2.4.0",
     "jest": "22.4.3",
