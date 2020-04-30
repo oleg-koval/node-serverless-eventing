@@ -23,7 +23,9 @@
     "start": "NODE_ENV=development serverless offline start",
     "test": "NODE_ENV=test LOG_LEVEL=error jest --coverage",
     "test:watch": "NODE_ENV=development LOG_LEVEL=error jest --watch",
-    "coverage": "codecov"
+    "coverage": "codecov",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "lint-staged": {
     "lib/**/*.js": [
@@ -41,7 +43,8 @@
     "dynamodb": "1.2.0",
     "joi": "13.4.0",
     "lambda-log": "2.2.0",
-    "request-promised": "1.0.2"
+    "request-promised": "1.0.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel-eslint": "8.2.5",
@@ -66,5 +69,6 @@
   },
   "pre-push": [
     "test"
-  ]
+  ],
+  "snyk": true
 }
